@@ -24,6 +24,7 @@ struct ColorTheme{
     struct BottomNavBar{
         static let BottomNavBarContent = Color("bottomNavBarContent")
         static let BottomNavBarChip = Color("bottomNavBarContent").opacity(0.10)
+        static let BackgroundNavBar = Color("BackgroundNavBar")
     }
     
     struct BG{
