@@ -13,14 +13,13 @@ struct MainScreen: View {
                         VStack (alignment: .leading, spacing: 20){
                             WelcomeView()
                             DoctorCard()
-                            /*
                             CustomTextField()
                             CategoryRowView()
                             Text("Near Doctor")
-                                .font(Font.custom(FontTheme.poppinsBold, size: 16))
+                                .font(.custom("t9", size: 16))
                                 .foregroundColor(ColorTheme.Text.Primary)
                             NearDoctorsListView()
-                            Spacer().frame(height: 50)*/
+                            Spacer().frame(height: 50)
                         }
                     }
                     

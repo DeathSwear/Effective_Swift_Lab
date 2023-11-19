@@ -13,6 +13,12 @@
 		865B0E232B091C4300B69FBA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865B0E222B091C4300B69FBA /* User.swift */; };
 		865B0E252B091C8C00B69FBA /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865B0E242B091C8C00B69FBA /* Doctor.swift */; };
 		865B0E292B0921B400B69FBA /* DoctorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865B0E282B0921B400B69FBA /* DoctorCard.swift */; };
+		865B0E2B2B09333E00B69FBA /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865B0E2A2B09333E00B69FBA /* CustomTextField.swift */; };
+		865B0E2D2B09366900B69FBA /* CategoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865B0E2C2B09366900B69FBA /* CategoryRowView.swift */; };
+		865B0E2F2B0936CF00B69FBA /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865B0E2E2B0936CF00B69FBA /* CategoryView.swift */; };
+		865B0E312B0936EA00B69FBA /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865B0E302B0936EA00B69FBA /* Category.swift */; };
+		865B0E332B09393F00B69FBA /* NearDoctorsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865B0E322B09393F00B69FBA /* NearDoctorsListView.swift */; };
+		865B0E352B09399300B69FBA /* DoctorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865B0E342B09399300B69FBA /* DoctorView.swift */; };
 		86EE3B432B08C5A100F49278 /* EffectiveSwiftLab13vApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EE3B422B08C5A100F49278 /* EffectiveSwiftLab13vApp.swift */; };
 		86EE3B452B08C5A100F49278 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EE3B442B08C5A100F49278 /* ContentView.swift */; };
 		86EE3B472B08C5A200F49278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86EE3B462B08C5A200F49278 /* Assets.xcassets */; };
@@ -46,6 +52,12 @@
 		865B0E222B091C4300B69FBA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		865B0E242B091C8C00B69FBA /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
 		865B0E282B0921B400B69FBA /* DoctorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCard.swift; sourceTree = "<group>"; };
+		865B0E2A2B09333E00B69FBA /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		865B0E2C2B09366900B69FBA /* CategoryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRowView.swift; sourceTree = "<group>"; };
+		865B0E2E2B0936CF00B69FBA /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		865B0E302B0936EA00B69FBA /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		865B0E322B09393F00B69FBA /* NearDoctorsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearDoctorsListView.swift; sourceTree = "<group>"; };
+		865B0E342B09399300B69FBA /* DoctorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorView.swift; sourceTree = "<group>"; };
 		86EE3B3F2B08C5A100F49278 /* EffectiveSwiftLab13v.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EffectiveSwiftLab13v.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86EE3B422B08C5A100F49278 /* EffectiveSwiftLab13vApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectiveSwiftLab13vApp.swift; sourceTree = "<group>"; };
 		86EE3B442B08C5A100F49278 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +100,11 @@
 			children = (
 				865B0E1C2B09106200B69FBA /* WelcomeView.swift */,
 				865B0E282B0921B400B69FBA /* DoctorCard.swift */,
+				865B0E2A2B09333E00B69FBA /* CustomTextField.swift */,
+				865B0E2C2B09366900B69FBA /* CategoryRowView.swift */,
+				865B0E2E2B0936CF00B69FBA /* CategoryView.swift */,
+				865B0E322B09393F00B69FBA /* NearDoctorsListView.swift */,
+				865B0E342B09399300B69FBA /* DoctorView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -97,6 +114,7 @@
 			children = (
 				865B0E222B091C4300B69FBA /* User.swift */,
 				865B0E242B091C8C00B69FBA /* Doctor.swift */,
+				865B0E302B0936EA00B69FBA /* Category.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -129,8 +147,8 @@
 				86EE3B422B08C5A100F49278 /* EffectiveSwiftLab13vApp.swift */,
 				86EE3B442B08C5A100F49278 /* ContentView.swift */,
 				86EE3B462B08C5A200F49278 /* Assets.xcassets */,
-				86EE3B482B08C5A200F49278 /* Preview Content */,
 				865B0E192B090F8D00B69FBA /* MainScreen.swift */,
+				86EE3B482B08C5A200F49278 /* Preview Content */,
 				865B0E1F2B09140B00B69FBA /* ColorTheme.swift */,
 			);
 			path = EffectiveSwiftLab13v;
@@ -292,13 +310,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				865B0E1A2B090F8D00B69FBA /* MainScreen.swift in Sources */,
+				865B0E2D2B09366900B69FBA /* CategoryRowView.swift in Sources */,
 				865B0E292B0921B400B69FBA /* DoctorCard.swift in Sources */,
 				865B0E202B09140B00B69FBA /* ColorTheme.swift in Sources */,
 				865B0E232B091C4300B69FBA /* User.swift in Sources */,
+				865B0E2F2B0936CF00B69FBA /* CategoryView.swift in Sources */,
 				86EE3B452B08C5A100F49278 /* ContentView.swift in Sources */,
 				86EE3B432B08C5A100F49278 /* EffectiveSwiftLab13vApp.swift in Sources */,
 				865B0E1D2B09106200B69FBA /* WelcomeView.swift in Sources */,
 				865B0E252B091C8C00B69FBA /* Doctor.swift in Sources */,
+				865B0E2B2B09333E00B69FBA /* CustomTextField.swift in Sources */,
+				865B0E312B0936EA00B69FBA /* Category.swift in Sources */,
+				865B0E332B09393F00B69FBA /* NearDoctorsListView.swift in Sources */,
+				865B0E352B09399300B69FBA /* DoctorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

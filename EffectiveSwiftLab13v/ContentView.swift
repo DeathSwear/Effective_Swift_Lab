@@ -12,8 +12,7 @@ struct ContentView: View {
             UITabBar.appearance().isHidden = true
         }
     var body: some View {
-        Text("Hello, world11!")
-            .padding()
+        MainScreen()
     }
 }
 
