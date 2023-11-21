@@ -20,7 +20,7 @@ struct CustomTextField: View {
                 .colorMultiply(ColorTheme.Text.Secondary)
                 .padding(.leading, 16)
             Text("Search doctor or health issue").foregroundColor(ColorTheme.Text.Secondary)
-                .font(.custom("t7", size: 15))
+                .font(.custom(FontTheme.poppinsMedium, size: 15))
                 .padding(.vertical, 16)
         }
         .background(ColorTheme.BG.BackgroundSecondary)

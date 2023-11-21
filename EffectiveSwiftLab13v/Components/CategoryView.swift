@@ -27,7 +27,7 @@ struct CategoryView: View {
                     .clipShape(Circle())
                 
                 Text(category.name)
-                    .font(.custom("t8", size: 15))
+                    .font(.custom(FontTheme.poppinsMedium, size: 15))
                     .foregroundColor(ColorTheme.Text.Secondary)
             }
         }

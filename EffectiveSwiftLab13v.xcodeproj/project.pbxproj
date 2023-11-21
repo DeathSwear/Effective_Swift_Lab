@@ -11,6 +11,7 @@
 		8659E69B2B0A0C9D006FD41C /* MessageScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8659E69A2B0A0C9D006FD41C /* MessageScreen.swift */; };
 		8659E69D2B0A0CB4006FD41C /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8659E69C2B0A0CB4006FD41C /* ProfileScreen.swift */; };
 		8659E69F2B0A1097006FD41C /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8659E69E2B0A1097006FD41C /* CustomTabBar.swift */; };
+		865B06BB2B0CFB5B0025DA51 /* FontTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865B06BA2B0CFB5B0025DA51 /* FontTheme.swift */; };
 		865B0E1A2B090F8D00B69FBA /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865B0E192B090F8D00B69FBA /* MainScreen.swift */; };
 		865B0E1D2B09106200B69FBA /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865B0E1C2B09106200B69FBA /* WelcomeView.swift */; };
 		865B0E202B09140B00B69FBA /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865B0E1F2B09140B00B69FBA /* ColorTheme.swift */; };
@@ -54,6 +55,11 @@
 		8659E69A2B0A0C9D006FD41C /* MessageScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageScreen.swift; sourceTree = "<group>"; };
 		8659E69C2B0A0CB4006FD41C /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
 		8659E69E2B0A1097006FD41C /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		865B06932B0CF7EA0025DA51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		865B06A32B0CF8400025DA51 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../../../../Downloads/SwiftLab-main/SwiftLabEffective/Fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		865B06A62B0CF8400025DA51 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Medium.ttf"; path = "../../../../Downloads/SwiftLab-main/SwiftLabEffective/Fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		865B06BA2B0CFB5B0025DA51 /* FontTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTheme.swift; sourceTree = "<group>"; };
+		865B06BD2B0D00C20025DA51 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-Bold.ttf"; path = "../../../../Downloads/Nunito/static/Nunito-Bold.ttf"; sourceTree = "<group>"; };
 		865B0E192B090F8D00B69FBA /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		865B0E1C2B09106200B69FBA /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		865B0E1F2B09140B00B69FBA /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
@@ -114,6 +120,25 @@
 			path = Screens;
 			sourceTree = "<group>";
 		};
+		865B06942B0CF7FA0025DA51 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				865B06BD2B0D00C20025DA51 /* Nunito-Bold.ttf */,
+				865B06A32B0CF8400025DA51 /* Poppins-Bold.ttf */,
+				865B06A62B0CF8400025DA51 /* Poppins-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		865B06B92B0CFB420025DA51 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				865B0E1F2B09140B00B69FBA /* ColorTheme.swift */,
+				865B06BA2B0CFB5B0025DA51 /* FontTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
 		865B0E1B2B09102900B69FBA /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +187,9 @@
 		86EE3B412B08C5A100F49278 /* EffectiveSwiftLab13v */ = {
 			isa = PBXGroup;
 			children = (
+				865B06B92B0CFB420025DA51 /* Theme */,
+				865B06942B0CF7FA0025DA51 /* Fonts */,
+				865B06932B0CF7EA0025DA51 /* Info.plist */,
 				8659E6972B0A0C4E006FD41C /* Screens */,
 				865B0E212B091C2600B69FBA /* Models */,
 				865B0E1B2B09102900B69FBA /* Components */,
@@ -169,7 +197,6 @@
 				86EE3B442B08C5A100F49278 /* ContentView.swift */,
 				86EE3B462B08C5A200F49278 /* Assets.xcassets */,
 				86EE3B482B08C5A200F49278 /* Preview Content */,
-				865B0E1F2B09140B00B69FBA /* ColorTheme.swift */,
 			);
 			path = EffectiveSwiftLab13v;
 			sourceTree = "<group>";
@@ -337,6 +364,7 @@
 				865B0E202B09140B00B69FBA /* ColorTheme.swift in Sources */,
 				865B0E232B091C4300B69FBA /* User.swift in Sources */,
 				8659E69D2B0A0CB4006FD41C /* ProfileScreen.swift in Sources */,
+				865B06BB2B0CFB5B0025DA51 /* FontTheme.swift in Sources */,
 				865B0E2F2B0936CF00B69FBA /* CategoryView.swift in Sources */,
 				86EE3B452B08C5A100F49278 /* ContentView.swift in Sources */,
 				8659E6992B0A0C88006FD41C /* CalendarScreen.swift in Sources */,
@@ -509,6 +537,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EffectiveSwiftLab13v/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EffectiveSwiftLab13v/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -538,6 +567,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EffectiveSwiftLab13v/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EffectiveSwiftLab13v/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

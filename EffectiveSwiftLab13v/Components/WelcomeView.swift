@@ -16,9 +16,9 @@ struct WelcomeView: View {
         HStack{
             VStack (alignment: .leading) {
                 Text("Hello,")
-                    .font(.custom("t1", size: 16))
+                    .font(.custom(FontTheme.poppinsMedium, size: 16))
                     .foregroundColor(ColorTheme.Text.Secondary)
-                Text("Hi " + user.name).font(.custom("t2", size: 20))
+                Text("Hi " + user.name).font(.custom(FontTheme.poppinsBold, size: 20))
             }
             Spacer()
             Image(user.imageAvatarName)

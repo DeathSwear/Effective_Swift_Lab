@@ -50,7 +50,7 @@ struct CustomTabBar: View {
                     if selectedTab == tab{
                         Text(tabText)
                             .foregroundColor(ColorTheme.BottomNavBar.BottomNavBarContent)
-                            .font(.custom("tabbar", size: 14))
+                            .font(.custom(FontTheme.poppinsMedium, size: 14))
                     }
                     
                 }

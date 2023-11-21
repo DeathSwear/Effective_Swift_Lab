@@ -20,10 +20,10 @@ struct DoctorCard: View {
                         .frame(width: 48, height: 48)
                     VStack (alignment: .leading){
                         Text("Dr. Imran Syahir")
-                            .font(Font.custom("t3", size: 16))
+                            .font(Font.custom(FontTheme.poppinsBold, size: 16))
                             .foregroundColor(.white)
                         Text("General Doctor")
-                            .font(Font.custom("t4", size: 14))
+                            .font(Font.custom(FontTheme.poppinsMedium, size: 14))
                             .foregroundColor(ColorTheme.Text.LightBlue)
                     }
                     Spacer()
@@ -39,14 +39,14 @@ struct DoctorCard: View {
                         .frame(width: 16, height: 16)
                     Text("Sunday, 12 June")
                         .foregroundColor(ColorTheme.Text.White)
-                        .font(Font.custom("t5", size: 12))
+                        .font(Font.custom(FontTheme.poppinsMedium, size: 12))
                     Spacer()
                     Image("clock")
                         .resizable()
                         .frame(width: 16, height: 16)
                     Text("11:00 - 12:00 AM")
                         .foregroundColor(ColorTheme.Text.White)
-                        .font(Font.custom("t6", size: 12))
+                        .font(Font.custom(FontTheme.poppinsMedium, size: 12))
                         .padding(.trailing, 24)
                 }
             }

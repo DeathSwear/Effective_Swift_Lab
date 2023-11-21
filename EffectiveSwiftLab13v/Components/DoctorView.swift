@@ -20,10 +20,10 @@ struct DoctorView: View {
                     .frame(width: 48, height: 48)
                 VStack (alignment: .leading) {
                     Text(doctor.name)
-                        .font(.custom("t10", size: 16))
+                        .font(.custom(FontTheme.poppinsBold, size: 16))
                         .foregroundColor(ColorTheme.Text.Primary)
                     Text(doctor.specialization)
-                        .font(.custom("t11", size: 14))
+                        .font(.custom(FontTheme.poppinsMedium, size: 14))
                         .foregroundColor(ColorTheme.Text.Secondary)
                 }
                 Spacer()
@@ -32,7 +32,7 @@ struct DoctorView: View {
                     .frame(width: 16, height: 16)
                     .colorMultiply(ColorTheme.Text.Secondary)
                 Text(String(doctor.distance) + " KM")
-                    .font(.custom("t12", size: 14))
+                    .font(.custom(FontTheme.poppinsMedium, size: 14))
                     .foregroundColor(ColorTheme.Text.Secondary)
             }
             Divider().frame(height: 20)
@@ -42,7 +42,7 @@ struct DoctorView: View {
                     .frame(width: 20, height: 20)
                     .colorMultiply(ColorTheme.Text.Yellow)
                 Text(String(doctor.mark) + " (" + String(doctor.reviewsCount) + " Reviews)")
-                    .font(.custom("t13", size: 12))
+                    .font(.custom(FontTheme.poppinsMedium, size: 12))
                     .foregroundColor(ColorTheme.Text.Yellow)
                 Spacer()
                 Image("clock")
@@ -50,7 +50,7 @@ struct DoctorView: View {
                     .frame(width: 20, height: 20)
                     .colorMultiply(ColorTheme.Primary)
                 Text("Open at " + doctor.openAtTime)
-                    .font(.custom("t14", size: 12))
+                    .font(.custom(FontTheme.poppinsMedium, size: 12))
                     .foregroundColor(ColorTheme.Primary)
                 Spacer()
             }

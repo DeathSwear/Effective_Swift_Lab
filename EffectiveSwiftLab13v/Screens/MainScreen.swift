@@ -16,7 +16,7 @@ struct MainScreen: View {
                             CustomTextField()
                             CategoryRowView()
                             Text("Near Doctor")
-                                .font(.custom("t9", size: 16))
+                                .font(.custom(FontTheme.poppinsBold, size: 16))
                                 .foregroundColor(ColorTheme.Text.Primary)
                             NearDoctorsListView()
                             Spacer().frame(height: 50)
