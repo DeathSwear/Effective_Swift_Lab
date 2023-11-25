@@ -56,10 +56,7 @@
 		8659E69C2B0A0CB4006FD41C /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
 		8659E69E2B0A1097006FD41C /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		865B06932B0CF7EA0025DA51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		865B06A32B0CF8400025DA51 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../../../../Downloads/SwiftLab-main/SwiftLabEffective/Fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
-		865B06A62B0CF8400025DA51 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Medium.ttf"; path = "../../../../Downloads/SwiftLab-main/SwiftLabEffective/Fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		865B06BA2B0CFB5B0025DA51 /* FontTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTheme.swift; sourceTree = "<group>"; };
-		865B06BD2B0D00C20025DA51 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-Bold.ttf"; path = "../../../../Downloads/Nunito/static/Nunito-Bold.ttf"; sourceTree = "<group>"; };
 		865B0E192B090F8D00B69FBA /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		865B0E1C2B09106200B69FBA /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		865B0E1F2B09140B00B69FBA /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
@@ -72,6 +69,9 @@
 		865B0E302B0936EA00B69FBA /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		865B0E322B09393F00B69FBA /* NearDoctorsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearDoctorsListView.swift; sourceTree = "<group>"; };
 		865B0E342B09399300B69FBA /* DoctorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorView.swift; sourceTree = "<group>"; };
+		865B72F12B11DA2A00FAE6FB /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		865B72F22B11DA3400FAE6FB /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		865B72F32B11DA9200FAE6FB /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
 		86EE3B3F2B08C5A100F49278 /* EffectiveSwiftLab13v.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EffectiveSwiftLab13v.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86EE3B422B08C5A100F49278 /* EffectiveSwiftLab13vApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectiveSwiftLab13vApp.swift; sourceTree = "<group>"; };
 		86EE3B442B08C5A100F49278 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -123,9 +123,9 @@
 		865B06942B0CF7FA0025DA51 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				865B06BD2B0D00C20025DA51 /* Nunito-Bold.ttf */,
-				865B06A32B0CF8400025DA51 /* Poppins-Bold.ttf */,
-				865B06A62B0CF8400025DA51 /* Poppins-Medium.ttf */,
+				865B72F32B11DA9200FAE6FB /* Nunito-Bold.ttf */,
+				865B72F22B11DA3400FAE6FB /* Poppins-Medium.ttf */,
+				865B72F12B11DA2A00FAE6FB /* Poppins-Bold.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
